@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
     <link rel="stylesheet" href="style.css" />
-    
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,48 +18,181 @@
       <!-- left section is menu -->
       <section id="menu">
         <div class="menu_card d-flex flex-column align-items center">
-            <div class="menu_card_col1">
-                <img src="./assets/Spotify logo.png" alt="spotify_logo">
+          <div class="menu_card_col1">
+            <img src="./assets/Spotify logo.png" alt="spotify_logo" />
+          </div>
+          <div class="menu_card_col2 mt-3">
+            <div class="menu_card_col2_home mx-1 d-flex">
+              <img
+                class="px-3 py-2"
+                src="./assets/fi-ss-home.png"
+                alt="home_logo"
+              />
+              <p>Home</p>
             </div>
-            <div class="menu_card_col2 pt-4">
-               <div class="menu_card_col2_home mx-1 d-flex">
-                <img class="px-3 py-2" src="./assets/fi-ss-home.png" alt="home_logo">
-                <p  >Home</p>
-               </div>
-               <div class="menu_card_col2_search mx-1 d-flex">
-                <img class="px-3 py-2" src="./assets/fi-rs-search.png" alt="search_logo">
-                <p  >search</p>
-               </div>
-               <div class=" menu_card_col2_libaray mx-1 d-flex">
-                <img class="px-3 py-2" src="./assets/library.png" alt="libaray_logo">
-                <p>library</p>
-               </div>
+            <div class="menu_card_col2_search mx-1 d-flex">
+              <img
+                class="px-3 py-2"
+                src="./assets/fi-rs-search.png"
+                alt="search_logo"
+              />
+              <p>search</p>
             </div>
-            <div class="menu_card_col3 pt-4">
-              <div class="menu_card_col2_search mx-1 d-flex">
-                <img class="px-3 py-2" src="./assets/plus.png" alt="plus_logo">
-                <p>Create PlayList</p>
-              </div>
-              <div class="menu_card_col2_search mx-1 d-flex">
-                <img class="px-3 py-2" src="./assets/purpleheart.png" alt="plus_logo">
-                <p>Liked songs</p>
-              </div>
-              <div class="menu_card_col2_search mx-1 d-flex">
-                <img class="px-3 py-2" src="./assets/hotspot.png" alt="plus_logo">
-                <p>Your Episodes</p>
-              </div>
+            <div class="menu_card_col2_libaray mx-1 d-flex">
+              <img
+                class="px-3 py-2"
+                src="./assets/library.png"
+                alt="libaray_logo"
+              />
+              <p>library</p>
             </div>
-            <div class="menu_card_col3 mt-4">
-              
+          </div>
+          <div class="menu_card_col3 mt-1">
+            <div class="menu_card_col2_search mx-1 d-flex">
+              <img class="px-3 py-2" src="./assets/plus.png" alt="plus_logo" />
+              <p>Create PlayList</p>
             </div>
+            <div class="menu_card_col2_search mx-1 d-flex">
+              <img
+                class="px-3 py-2"
+                src="./assets/purpleheart.png"
+                alt="plus_logo"
+              />
+              <p>Liked songs</p>
+            </div>
+            <div class="menu_card_col2_search mx-1 d-flex">
+              <img
+                class="px-3 py-2"
+                src="./assets/hotspot.png"
+                alt="plus_logo"
+              />
+              <p>Your Episodes</p>
+            </div>
+          </div>
+          <div class="menu_card_col4 mt-2 px-3">
+            <p>FAV</p>
+            <p>Daily Mix 1</p>
+            <p>Discover Weekly</p>
+            <p>Malayalam</p>
+            <p>Dance/Electronix Mix</p>
+            <p>EDM/Popular</p>
+          </div>
+          <div class="menu_card_col5 mt-4">
+            <div class="menu_card_col2_search mx-1 d-flex">
+              <img class="px-3 py-2" src="./assets/install-icon.png" alt="plus_logo" />
+              <p>Install App</p>
+            </div>
+          </div>
         </div>
-
-
       </section>
       <!-- the body section is main -->
-      <section id="main">MAIN</section>
+      <section id="main">
+        <div class="main_top_row d-flex flex-row justify-space-between">
+          <div class="main_top_col1">
+            <img src="./assets/top_arrow_nav.png" alt="to_arrow_nav">
+          </div>
+          <div class="main_top_col2 d-flex">
+            <img src="./assets/user_img.png" alt="user_img" class="ps-1" style="overflow:hidden">
+            <p class="text-light px-2 my-2 fw-bold">Srinija</p>
+            <img src="./assets/user_dropdown.png" alt="user_dropdown">
+          </div>
+        </div>
+        <!-- good morning card= gmcard -->
+        <div class="main_top_gmcard  mx-3 mt-1">
+          <h1 class="text-light">Good Morning🌞</h1>
+          <div class="d-flex">
+          <div class="main_top_gmcard1 d-flex justify-space-between align-items-center me-1">
+            <img src="./assets/purplebigheart.png" alt="purplebigheart">
+            <p class="text-light ps-4">Liked Songs</p>
+          </div>
+          <div class="main_top_gmcard1 d-flex justify-space-between align-items-center mx-2">
+            <img src="./assets/netflix.png" alt="netflix">
+            <p class="text-light ps-4">Neffex Playlist</p>
+          </div>
+          <div class="main_top_gmcard1 d-flex justify-space-between align-items-center mx-2">
+            <img src="./assets/kda.png" alt="kda">
+            <p class="text-light ps-4">K/DA</p>
+          </div>
+        </div>
+        <div class="d-flex my-3">
+          <div class="main_top_gmcard1 d-flex justify-space-between align-items-center ">
+            <img src="./assets/marshello.png" alt="marshello">
+            <p class="text-light ps-4">K/DA</p>
+          </div>
+        </div>
+      </div>
+      <div class="main_middle_card_heading d-flex justify-space-between">
+        <h1 class="text-light fs-4 ms-3">Shows you might like</h1>
+        <h5 class="">see all</h5>
+      </div>
+      <div class="main_bottom_card d-flex justify-space-between ms-2">
+        <div class="card  mx-2 my-1 p-4 border-0" style="width:14rem; height:300px; border-radius:10px;background-color:#393939">
+          <img src="./assets/person1_pic.png" class="card-img-top" alt="person1_pic">
+          <div class="card-body">
+            <p class="card-text text-light fs-5" style="white-space: nowrap;">Weekly Motivatio...</p>
+            <p class="text-light">Ben Ina Scott</p>
+          </div>
+        </div>
+        <div class="card  mx-2 my-1 p-4 border-0" style="width:14rem; height:300px; border-radius:10px;background-color:#393939">
+          <img src="./assets/person2_pic.png" class="card-img-top" alt="person2_pic">
+          <div class="card-body">
+            <p class="card-text text-light fs-5" style="white-space: nowrap;">Weekly Motivatio...</p>
+            <p class="text-light">Ben Ina Scott</p>
+          </div>
+        </div>
+        <div class="card  mx-2  my-1 p-4 border-0" style="width:14rem; height:300px; border-radius:10px;background-color:#393939">
+          <img src="./assets/person3_pic.png" class="card-img-top" alt="person3_pic">
+          <div class="card-body">
+            <p class="card-text text-light fs-5" style="white-space: nowrap;">Weekly Motivatio...</p>
+            <p class="text-light">Ben Ina Scott</p>
+          </div>
+        </div>
+        <div class="card  mx-2  my-1 p-4 border-0" style="width:14rem; height:300px; border-radius:10px;background-color:#393939">
+          <img src="./assets/person4_pic.png" class="card-img-top" alt="person4_pic">
+          <div class="card-body">
+            <p class="card-text text-light fs-5" style="white-space: nowrap;">Weekly Motivatio...</p>
+            <p class="text-light">Ben Ina Scott</p>
+          </div>
+        </div>
+      </div>
+      <div class="main_bottom_card d-flex justify-space-between ms-2">
+        <div class="card  mx-2 my-1 p-4 border-0" style="width:14rem; height:300px; border-radius:10px;background-color:#393939">
+          <img src="./assets/person2_pic.png" class="card-img-top" alt="person2_pic">
+          <div class="card-body">
+            <p class="card-text text-light fs-5" style="white-space: nowrap;">Weekly Motivatio...</p>
+            <p class="text-light">Ben Ina Scott</p>
+          </div>
+        </div>
+        <div class="card  mx-2 my-1 p-4 border-0" style="width:14rem; height:300px; border-radius:10px;background-color:#393939">
+          <img src="./assets/person3_pic.png" class="card-img-top" alt="person3_pic">
+          <div class="card-body">
+            <p class="card-text text-light fs-5" style="white-space: nowrap;">Weekly Motivatio...</p>
+            <p class="text-light">Ben Ina Scott</p>
+          </div>
+        </div>
+        <div class="card  mx-2  my-1 p-4 border-0" style="width:14rem; height:300px; border-radius:10px;background-color:#393939">
+          <img src="./assets/person4_pic.png" class="card-img-top" alt="person4_pic">
+          <div class="card-body">
+            <p class="card-text text-light fs-5" style="white-space: nowrap;">Weekly Motivatio...</p>
+            <p class="text-light">Ben Ina Scott</p>
+          </div>
+        </div>
+        <div class="card  mx-2  my-1 p-4 border-0" style="width:14rem; height:300px; border-radius:10px;background-color:#393939">
+          <img src="./assets/person1_pic.png" class="card-img-top" alt="person1_pic">
+          <div class="card-body">
+            <p class="card-text text-light fs-5" style="white-space: nowrap;">Weekly Motivatio...</p>
+            <p class="text-light">Ben Ina Scott</p>
+          </div>
+        </div>
+      </div>
+      </section>
+      
       <!-- this is foooter section -->
-      <section id="footer">FOOTER</section>
+      <section id="footer" class="d-flex justify-space-between">
+        <img class="mx-3" src="./assets/playlogo.png" alt="playlogo">
+        <img style="margin-inline:100px;" src="./assets/music.png" alt="music">
+        <img src="./assets/option.png" alt="option">
+      </section>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
