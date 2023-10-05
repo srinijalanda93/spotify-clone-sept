@@ -8,16 +8,229 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Playlist</title>
         <link rel="stylesheet" href="indexstyle.css" />
+        <!-- <link rel="stylesheet" href="style.css"> -->
         <link rel="icon" href="./assets/Spotify_icon.ico" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     </head>
 <body>
     <div id="grid-1">
-        <div id="header">HEADER</div>
-        <div id="menu">
-            MENU</div>
-        <div id="main">MAIN</div>
-        <div id="footer">FOOTER</div>
+        <section id="menu1">
+            <div class="menu_card_col1 mb-4">
+                <img src="./assets/spotify2.png" alt="spotify2">
+            </div>
+            <div class="menu_card_col2_home mx-1 d-flex">
+                <img
+                  class="px-3 py-2"
+                  src="./assets/fi-ss-home.png"
+                  alt="home_logo"
+                />
+                <p>Home</p>
+              </div>
+              <div class="menu_card_col2_search d-flex">
+                <img
+                  class="px-3 py-2"
+                  src="./assets/fi-rs-search.png"
+                  alt="search_logo"
+                />
+                <p>search</p>
+              </div>
+              <div class="menu_card_col2_libaray  d-flex">
+                <img
+                  class="px-3 py-2"
+                  src="./assets/library.png"
+                  alt="libaray_logo"
+                />
+                <p>library</p>
+              </div>
+              <p class="text-light ms-3 py-3">PLAYLIST</p>
+              <div class="menu_card_col2_search d-flex">
+                <img class="px-3 py-1" src="./assets/plus.png" alt="plus_logo" />
+                <p>Create PlayList</p>
+              </div>
+              <div class="menu_card_col2_search  d-flex">
+                <img
+                  class="px-3 py-1"
+                  src="./assets/purpleheart.png"
+                  alt="plus_logo"
+                />
+                <p>Liked songs</p>
+              </div>
+             <hr class="text-light w-80 mx-2">
+             <div class="album-art mt-5 mb-5 me-5">
+                <img src="./assets/album art.png" alt="album-art" style="width:200.8px">
+             </div> 
+        </section>
+
+        <section id="header1" >
+            <div class="d-flex" style="margin: 0px; padding:0px">
+            <div class="dulipa_pic">
+                <img src="./assets/dulipa_pic.png" alt="artist_pic">
+            </div>
+            <div class="dulipa_pic_details mt-5">
+                <p>PLAYLIST</p>
+                <p style="font-size: 70px; font-weight: 800;letter-spacing:-4px; ">Pop Right Now</p>
+                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus</p>
+                <div class="d-flex ">
+                    <p class="text-light" ><b>Spotify</b>
+                        <ul class="d-flex mx-1 text-light">
+                            <li class="pe-4">860,305 likes</li>
+                            <li>100 songs, 5 hr 5 min</li>
+                        </ul></p>
+                </div>
+            </div>
+           </div>
+   
+            <div class="d-flex ms-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 55 55" fill="none">
+                    <path d="M0 27.5C0 12.3122 12.3122 0 27.5 0C42.6878 0 55 12.3122 55 27.5C55 42.6878 42.6878 55 27.5 55C12.3122 55 0 42.6878 0 27.5Z" fill="#1DB954"></path>
+                    <path d="M39 27.5L21 17V38L39 27.5Z" fill="white"></path>
+                </svg>
+                <div class="white-heart px-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 46 46" fill="none">
+                        <path opacity="0.7" d="M22.3027 13.4342C19.3015 10.433 14.4355 10.433 11.4342 13.4342V13.4342C8.433 16.4355 8.433 21.3015 11.4342 24.3027L22.3735 35.242C22.9957 35.8641 24.0043 35.8641 24.6265 35.242L35.5658 24.3027C38.567 21.3015 38.567 16.4355 35.5658 13.4342V13.4342C32.5645 10.433 27.6985 10.433 24.6973 13.4342L23.5 14.6315L22.3027 13.4342Z" stroke="white" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <div class="white-heart">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 46 46" fill="none">
+                        <g opacity="0.7">
+                            <circle cx="13.125" cy="23.125" r="2.125" fill="white"></circle>
+                            <circle cx="23.375" cy="23.125" r="2.125" fill="white"></circle>
+                            <circle cx="33.625" cy="23.125" r="2.125" fill="white"></circle>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+          
+        </section>
+      
+        
+        <section id="main1">
+            
+                <div class="d-flex  align-items-center justify-space-between">
+                   <table class="text-light text-center" style="width:1000px">
+                    <tr>
+                        <td>#TITLE</td>
+                        <td>#TITLE</td>
+                        <td>#TITLE</td>
+                    </tr>
+                  <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr> <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr> <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr> <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr> <tr>
+                    <td>
+                        <img src="./assets/playbutton.png" class="pe-2">
+                        <img src="./assets/music2.png">
+                        We are good
+                    </td> 
+                    <td>Future Nostalgia (The Moonlight Edition)</td> 
+                    <td>일 전</td> 
+                    <td>2:45 ...</td>
+                </tr>
+                   </table>
+                   
+                </div>
+            <div class="card-list">
+            
+            </div>
+            
+        </section>
+       
+        <section id="footer1">FOOTER</section>
 
     </div>
     
