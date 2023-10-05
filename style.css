@@ -64,15 +64,15 @@ p {
 }
 
 #main::-webkit-scrollbar {
-  width: 6px; /* Adjust the width as needed */
+  width:1px; 
 }
 
 #main::-webkit-scrollbar-thumb {
-  background-color: transparent; /* Hide the thumb */
+  background-color: transparent; 
 }
 
 #main::-webkit-scrollbar-track {
-  background-color: transparent; /* Hide the track */
+  background-color: transparent; 
 }
 
 #footer {
@@ -117,6 +117,24 @@ p {
   padding-top: 5px;
   padding-left: 9px;
 }
+.menu_card_col2 p>a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-left: 9px;
+}
+
+.menu_card_col2_search:hover,
+.menu_card_col2_libaray:hover{
+  background-color: #282828;
+  border-radius: 6px;
+}
+
+
+
 .menu_card_col4 > p,
 .menu_card_col5 p {
   color: #fff;
