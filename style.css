@@ -75,7 +75,22 @@ p {
   background-color: transparent; 
 }
 
-#footer {
+/* #footer {
+  grid-area: f;
+  
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  width:100vw;
+  height:60px;
+  background: linear-gradient(
+    to top right,
+    #5c5a5a 0%,
+    rgb(26, 24, 24) 70%,
+    rgb(65, 63, 63) 120%
+  );
+} */
+#footer1 {
   grid-area: f;
   /* background-color: rgb(122, 230, 241); */
   /* grid-column: 1/-1; */
@@ -83,13 +98,14 @@ p {
   bottom: 0;
   z-index: 2;
   width:100vw;
-  height:50px;
+  height:60px;
   background: linear-gradient(
     to top right,
     #5c5a5a 0%,
     rgb(26, 24, 24) 70%,
     rgb(65, 63, 63) 120%
   );
+   box-sizing: border-box !important ;
 }
 .menu_card_col1 > img ,.main_top_col1>img{
   position: relative;

@@ -64,7 +64,7 @@
     bottom: 0;
     z-index: 2;
     width:100vw;
-    height:50px;
+    height:60px;
     background: linear-gradient(
       to top right,
       #5c5a5a 0%,
@@ -113,7 +113,12 @@
     margin:0px;
     color:white;
 }
-
+audio {
+    /* Change the border properties as needed */
+    height: 50px; /* Adjust the height as needed */
+    /* Additional styling here */
+  }
+  
 
 
 
