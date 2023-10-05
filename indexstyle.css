@@ -108,20 +108,11 @@
     margin:0px;
 }
 
-.dis {
-    display: inline-block;
+
+.foot_col1_text p{
+    margin:0px;
+    color:white;
 }
-
-.fim {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #282828;
-    color: white;
-    padding: 10px 0;
-}
-
-
 
 
 
